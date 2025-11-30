@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Toshiji Advisor | 未来をつくる、スマートな業務アプリ開発。</title>
+  <meta name="description" content="現場の課題に寄り添うオーダーメイドAIアプリを、スピーディーに。Toshiji Advisor 公式サイト。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="#top" class="brand">
+        <span class="brand-text">Toshiji Advisor<span class="brand-dot"></span></span>
+      </a>
+      <button class="nav-toggle" aria-label="メニュー" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" role="navigation">
+        <a href="#hero">トップ</a>
+        <a href="#about">事業概要</a>
+        <a href="#services">サービス</a>
+        <a href="#works">実績</a>
+        <a href="#profile">プロフィール</a>
+        <a href="#contact" class="cta-link">お問い合わせ</a>
+      </nav>
+    </div>
+    <div class="scrollbar"><span></span></div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-bg-wrap">
+        <img class="hero-bg" src="assets/brand.png" alt="背景画像" />
+      </div>
+      <div class="container hero-inner">
+        <div class="hero-copy reveal">
+          <p class="eyebrow chip">AI & App Development</p>
+          <h1 class="hero-title"><span class="grad">Toshiji Advisor</span><span class="hero-dot"></span></h1>
+          <p class="lead sub">未来をつくる、スマートな業務アプリ開発。<br class="sp-br">現場の課題に寄り添うオーダーメイドAIアプリを、スピーディーに。</p>
+          <div class="cta">
+            <a class="btn btn-primary" href="#services">サービスを見る</a>
+            <a class="btn btn-ghost" href="mailto:marunition@icloud.com">メールで相談</a>
+          </div>
+          <div class="metrics">
+            <div class="metric"><span class="num">10+ </span><span class="lbl">導入/PoC</span></div>
+            <div class="metric"><span class="num">AI </span><span class="lbl">現場適用</span></div>
+            <div class="metric"><span class="num">Speed </span><span class="lbl">小さく早く改善</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container narrow">
+        <h2 class="section-title reveal">事業概要</h2>
+        <p class="lead reveal" style="--d:80ms">
+          中小企業の現場に根ざした課題解決に特化。必要最小限から始め、使われることに徹した業務アプリを、AIと自動化で素早く届けます。
+        </p>
+        <div class="features">
+          <div class="feature glass reveal" data-tilt>
+            <div class="icon">⚡</div>
+            <h3>速い立ち上げ</h3>
+            <p>小さく作り、すぐ試し、無駄を省いて前進。</p>
+          </div>
+          <div class="feature glass reveal" style="--d:60ms" data-tilt>
+            <div class="icon">🤝</div>
+            <h3>現場起点</h3>
+            <p>実務フローに合わせて、誰でも続けられる形に。</p>
+          </div>
+          <div class="feature glass reveal" style="--d:120ms" data-tilt>
+            <div class="icon">🧠</div>
+            <h3>AIの実装力</h3>
+            <p>AIとデータ連携で、属人作業を仕組みに変換。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section alt">
+      <div class="container">
+        <h2 class="section-title reveal">サービス</h2>
+        <div class="cards">
+          <div class="card glass reveal" data-tilt>
+            <h3>業務アプリ開発</h3>
+            <p>見積・受注・在庫・日報など、現場に沿う最小構成で構築。段階的に拡張。</p>
+            <ul>
+              <li>Web/モバイル対応</li>
+              <li>権限・ログ監査</li>
+              <li>クラウド運用</li>
+            </ul>
+          </div>
+          <div class="card glass reveal" style="--d:60ms" data-tilt>
+            <h3>AI活用支援</h3>
+            <p>文章要約、画像判定、FAQ、レコメンド等のAIを実務に実装。</p>
+            <ul>
+              <li>既存ツール連携</li>
+              <li>ワークフロー自動化</li>
+              <li>現場教育</li>
+            </ul>
+          </div>
+          <div class="card glass reveal" style="--d:120ms" data-tilt>
+            <h3>データ連携・自動化</h3>
+            <p>スプレッドシート/基幹/チャットをつなぎ、手作業を削減。</p>
+            <ul>
+              <li>API/ETL 設計</li>
+              <li>アラート通知</li>
+              <li>定期バッチ</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="works" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">実績</h2>
+        <div class="works-list">
+          <div class="work-item glass reveal video-card">
+            <div class="label">業務アプリ（鋼材管理）デモ</div>
+            <video src="assets/kouzaidemo.mp4" controls playsinline muted loop preload="metadata" poster="assets/brand.png"></video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="profile" class="section">
+      <div class="container narrow">
+        <h2 class="section-title reveal">プロフィール</h2>
+        <div class="profile reveal">
+          <p>中小企業の業務改善を専門とするアプリ開発者。複雑なシステムを必要としない、シンプルで使いやすいツールにこだわり、現場の負担を減らす“ちょうどいいDX”を提供します。使い続けられる仕組みづくりを大切にしています。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2 class="section-title reveal">お問い合わせ</h2>
+        <p class="lead reveal">メールでのご連絡はこちら</p>
+        <p class="contact-link reveal" style="--d:80ms"><a class="btn btn-primary" href="mailto:marunition@icloud.com">marunition@icloud.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Toshiji Advisor</p>
+    </div>
+  </footer>
+
+  <a class="fab" href="mailto:marunition@icloud.com" aria-label="メールで相談">✉️</a>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
